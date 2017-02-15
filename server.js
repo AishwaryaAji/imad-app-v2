@@ -11,10 +11,10 @@ app.get('/', function (req, res) {
 app.get('/article-one',function(req,res){
     res.send('article one requuested and will be served here');
 });
-app.get('/article two',function(req,res){
+app.get('/article-two',function(req,res){
     res.send('article two requuested and will be served here');
 });
-app.get('/article three',function(req,res){
+app.get('/article-three',function(req,res){
     res.send('article 3 requuested and will be served here');
 });
 
