@@ -8,7 +8,7 @@ button.onclick = function(){
     //capture the response and store it in a variable
     //Rende the variable in the correr span
     counter=counter+1;
-    var span = document.getElementById('count');
+    var span = document.getElementById('counter');
 
     span.innerHTML = counter.toString();
 }
